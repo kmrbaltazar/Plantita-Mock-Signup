@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./scripts.js" defer></script>
+  </head>
+  <body>
+    <section class="sign-up-grid">
+      <section class="sign-up-logo-container">
+        <div class="sign-up-logo-wrapper">
+          <img src="./assets/images/Plantita_logo_orig.png" alt="plantita logo" />
+        </div>
+        <h1 class="plantita-title">Plantita</h1>
+        <p class="plantita-description">Be part of the community taking good care
+          of their indoor plants and improving their homes </p>
+      </section>
+      <section class="sign-up-form-container">
+        <h1 class="page-title">SIGN-UP TO BE A PLANTITA</h1>
+        <div class="line-container">
+          <div class="label-and-warning-wrapper">
+            <label for="first-name">First name :</label>
+            <span id="first-name-warning" class="no-display warning"
+              >*Please enter your first name/s</span
+            >
+          </div>
+          <input
+            type="text"
+            id="first-name"
+            placeholder="enter your first or given name/s"
+            class="sign-up-input"
+          />
+        </div>
+
+        <br />
+        <div class="line-container">
+          <div class="label-and-warning-wrapper">
+            <label for="last-name">Last name :</label>
+            <span id="last-name-warning" class="no-display warning"
+              >*Please enter your last name or family name</span
+            >
+          </div>
+          <input
+            type="text"
+            id="last-name"
+            placeholder="enter your last name or family name"
+            class="sign-up-input"
+          />
+        </div>
+        <br />
+        <div class="line-container">
+          <div class="label-and-warning-wrapper">
+            <label for="email">Email :</label>
+            <span id="email-warning" class="no-display warning"
+              >*Please follow the email address format below</span
+            >
+          </div>
+          <input
+            type="email"
+            id="email-input"
+            placeholder="enter your email address"
+            class="sign-up-input"
+          />
+        </div>
+        <br />
+        <div class="line-container">
+          <div class="label-and-warning-wrapper">
+            <label for="username">Username : </label>
+            <span id="username-warning" class="no-display warning"
+              >*Please enter at least 4 characters</span
+            >
+          </div>
+          <input
+            type="text"
+            id="username"
+            placeholder="enter username"
+            class="sign-up-input"
+          />
+        </div>
+
+        <br />
+        <div class="line-container">
+          <div class="label-and-warning-wrapper">
+            <label for="password">Password :</label>
+            <span id="password-warning" class="no-display warning"
+              >*Please enter at least 8 characters</span
+            >
+          </div>
+          <input
+            type="password"
+            id="password"
+            placeholder="enter your password"
+            class="sign-up-input"
+          />
+        </div>
+
+        <br />
+        <div class="line-container">
+          <div class="label-and-warning-wrapper">
+            <label for="re-password">Confirm Password :</label>
+            <span id="re-password-warning" class="no-display warning"
+              >*Please enter same password</span
+            >
+          </div>
+          <input
+            type="password"
+            id="re-password"
+            placeholder="re-enter your password"
+            class="sign-up-input"
+          />
+        </div>
+
+        <br />
+        <input type="submit" value="Create account" id="sign_up_btn" />
+        <p class="have-account-p">Already have an account? <a href="./other.html" class="sign-up-login-a">Log-in</a> here</p>
+
+      
+      </section>
+    </section>
+      <!-- Modal Start -->
+      <div id="modal" class="no-display">
+        <h1 id="modal-title">Sign-up success - Welcome!</h1>
+        <button class="log-in-btn">
+          <a href="./other.html">Go to Log-in</a>
+        </button>
+      </div>
+      <div id="modal-bg" class="no-display"></div>
+      <!-- Modal End -->
+  </body>
+</html>

@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, input, label {
+    color: #3C3D39;
+    font-family: 'Dosis', sans-serif;
+}
+
+.sign-up-logo-container {
+    background-color: #186B1C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+.sign-up-logo-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sign-up-logo-wrapper {
+    height: 60%;
+}
+
+.sign-up-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+}
+
+.plantita-title {
+    color: #FFF1D4;
+    font-family: 'Comfortaa', cursive;
+    font-size: 56px;
+}
+
+.plantita-description {
+    color: #FFF1D4;
+    width: 70%;
+}
+
+.page-title {
+    font-size: 28px;
+}
+
+.sign-up-form-container {
+    background-color: #FFF1D4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.page-title {
+    color: #186B1C;
+    margin: 20px 0;
+}
+
+.line-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0 auto;
+    width: 50vw;
+}
+
+.label-and-warning-wrapper {
+    display: flex;
+    gap: 10px;
+    max-width: 1fr;
+    justify-content: space-between;
+}
+
+.sign-up-input {
+    background-color: #fff;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+.sign-up-input:focus {
+    outline: none !important;
+    border: 2px solid #186B1C;
+}
+
+.sign-up-input::placeholder {
+    color: #97998F;
+    padding: 5px;
+}
+
+#sign_up_btn {
+    border: none;
+    padding: 5px;
+    background-color: #FFA03C;
+    height: 60px;
+    width: 50vw;
+    border-radius: 5px;
+    color: #186B1C;
+    font-size: 18px;
+    font-weight: 700;
+}
+.warning{
+    color: red;
+}
+
+.have-account-p {
+    margin-top: 10px;
+}
+
+.sign-up-login-a {
+    color: #186B1C;
+}
+
+.no-display {
+    display: none !important;
+}
+
+/* MODAL CSS */
+#modal, #modal_other{
+    background-color: #FFF1D4;
+    position: fixed;
+    top: 30%; left: 20%;bottom: 30%;right: 20%;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    border-radius: 5px;
+}
+#modal-bg, #modal-bg_other {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;bottom: 0;left: 0;right: 0;
+}
+/* #modal-close-btn, #modal-close-btn_other{
+    background-color: #3C3D39;
+    padding: 5px;
+    color: #FFF1D4;
+    border-radius: 3px;
+    border: none;
+} */
+/* .modal-top{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+} */
+.modal-title{
+    text-align: center;
+    color: rgba(1, 1, 1, 0.633)
+}
+.log-in-btn {
+    background-color: #FFA03C;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+}
+.log-in-btn a {
+    color: #186B1C;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Dosis', sans-serif;
+}
+
+.log-in-btn:hover {
+    background-color: rgb(201, 95, 14);
+}
+
+.log-in-btn:hover > a {
+    color: #FFF1D4;
+}
+
+.welcome-container {
+    display: flex;
+    gap: 20px;
+}
+
+.initial-wrapper {
+    background-color: #186B1C;
+    color: #FFF1D4;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

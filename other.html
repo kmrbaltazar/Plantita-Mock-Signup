@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./other.js" defer></script>
+  </head>
+  <body>
+ 
+    <h1>LOG-IN</h1>
+    <div class="line-container">
+        <label for="username">Username : </label>
+        <input type="text" id="username_login" placeholder="enter username" />
+      </div>
+      <span id="username-warning" class="no-display warning"
+        >*Please enter at least 4 characters</span
+      >
+      <br />
+      <div class="line-container">
+        <label for="password">Password :</label>
+        <input type="password" id="password_login" placeholder="enter your password" />
+      </div>
+      <br>
+      <input type="submit" value="Log-in" id="log-in-btn" />
+     <!-- Modal Start -->
+     <a href="./welcome.html">
+    <div id="modal_other" class="no-display">
+        <!-- <div id="modal"> -->
+          <!-- <div class="modal-top">
+            <span id="modal-close-btn_other">X</span>
+          </div> -->
+          <h1 class="modal-title">Log-in Success!</h1>
+        </div>
+    </a>
+        <div id="modal-bg_other" class="no-display"></div>
+        <!-- Modal End -->
+
+
+    
+
+    
+  </body>
+</html>
